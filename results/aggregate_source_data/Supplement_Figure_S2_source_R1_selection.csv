@@ -1,0 +1,8 @@
+item,observed_value,unit_or_definition,threshold,triggered
+selection_model_apparent_AUROC,0.8561193597529282,AUROC,,
+effective_sample_size,609.3557023355787,patients,,
+maximum_key_abs_SMD_after_weighting,0.1219593291784658,absolute SMD,,
+ESS_below_50_percent_of_intersection,609.3557023355787,,744.0,True
+key_post_weight_absolute_SMD_above_0.10,0.1219593291784658,,0.1,True
+practical_positivity_failure,0.0002786679671171,,0.01,False
+more_than_5_percent_propensities_clipped,0.0006720430107526,,0.05,False

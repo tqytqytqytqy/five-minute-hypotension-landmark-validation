@@ -1,0 +1,29 @@
+{
+  "analysis_config_sha256": "d3e9054596a0b8772067f6cb59120df2da56148438f2919e3e04b800f8ad392f",
+  "SAP_sha256": "5ab55ecd56ecc0233139298083423e9b5364213401a97b2ca0d94cf6d9e64b3d",
+  "deviation_log_sha256": "27dda2661d6863ca69353a3fd00ae27936097f8f2f130d583745688200911173",
+  "source_manifest_sha256": "eaf1caf275405b70d793555e3ae76fdc35135b4abbf82c52641308dec8a0c2a7",
+  "inspire_model_cohort_sha256": "242cc4406b1bf6316c48a93d5631b503273068d3729ce3251e7d904d6d2b7d68",
+  "MOVER_patient_level_predictions_seen_before_freeze": false,
+  "MOVER_performance_metrics_seen_before_freeze": false,
+  "known_prior_MOVER_proxy_event_summary": true,
+  "technical_freeze_finalized_at_utc": "2026-07-12T04:04:30.198832+00:00",
+  "technical_freeze_version": "1.1.0",
+  "technical_freeze_extension": "post-audit INSPIRE-only refreeze with expanded ridge grid and corrected precision formula; this finalization step itself adds the primary code/config hash manifest without changing the newly refitted objects",
+  "immutable_model_file_hashes_before_extension": {
+    "model.json": "2eb42c0211a6413408b4aa9c3987e0299514d415d5bf110a9e3bb8a1663eb6ea",
+    "preprocess.json": "ce5c72c8a82740511a00fa823064889bb386640fe63a145bcb66dbaaa6ddad7a",
+    "thresholds.json": "1153a5578a9a98b59bfee43e6d40e76d3d2bb02dbaf1a79117481c00b98caccb",
+    "test_vectors.csv": "15d00a0ef3a0076657fffa047251460500d4289fba7c54e043f8ed5e69694ec0"
+  },
+  "code_manifest_file": "code_SHA256SUMS.csv",
+  "test_vector_verification_after_extension": {
+    "tolerance": 1e-12,
+    "maximum_absolute_error_by_model": {
+      "LM5_common18": 9.71445146547012e-17,
+      "simple_recovered_by_5min": 5.551115123125783e-17,
+      "simple_early_mean_map": 9.020562075079397e-17,
+      "simple_t0_map": 8.326672684688674e-17
+    }
+  }
+}

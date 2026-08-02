@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lm5-hypotension-validation"
+version = "1.0.0"
+description = "Reproducibility code for a five-minute intraoperative hypotension landmark model validation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Qingyu Teng"},
+  {name = "Qi Li"},
+  {name = "Sijia Yao"},
+  {name = "Xiaoxiao Chen"},
+  {name = "Mengya Ni"},
+  {name = "Jin Zhao"},
+  {name = "Yingya Zhao"},
+  {name = "Hui Zhang"}
+]
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.18.0",
+  "scikit-learn==1.9.0"
+]
+
+[project.optional-dependencies]
+publication = [
+  "matplotlib==3.9.4",
+  "Pillow==11.3.0",
+  "openpyxl==3.1.5"
+]
+
+[tool.setuptools]
+package-dir = {"" = "02_code_configs/src"}
+
+[tool.setuptools.packages.find]
+where = ["02_code_configs/src"]

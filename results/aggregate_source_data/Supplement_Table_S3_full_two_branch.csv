@@ -1,0 +1,121 @@
+analysis_block,threshold,row_type,strategy_or_contrast,metric,estimate_95CI,analysis_label
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,Alert rate,0.668 (0.658 to 0.678),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,Sensitivity,0.887 (0.874 to 0.900),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,PPV,0.348 (0.335 to 0.360),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,"False-positive alerts per 1,000",435.8 (425.5 to 445.5),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,Alerts per event captured,2.88 (2.78 to 2.98),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + LM5,Net benefit,0.184 (0.174 to 0.193),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,Alert rate,0.808 (0.800 to 0.816),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,Sensitivity,0.947 (0.938 to 0.956),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,PPV,0.306 (0.296 to 0.318),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,"False-positive alerts per 1,000",560.6 (549.7 to 570.2),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,Alerts per event captured,3.26 (3.15 to 3.37),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + early mean MAP,Net benefit,0.185 (0.176 to 0.196),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,Alert rate,0.429 (0.418 to 0.439),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,Sensitivity,0.732 (0.714 to 0.750),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,PPV,0.447 (0.431 to 0.463),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,"False-positive alerts per 1,000",237.3 (228.2 to 246.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,Alerts per event captured,2.24 (2.16 to 2.32),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,strategy,Severe early burden + landmark MAP <65,Net benefit,0.165 (0.156 to 0.174),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,Alert rate,-0.140 (-0.149 to -0.133),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,Sensitivity,-0.060 (-0.071 to -0.049),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,PPV,0.041 (0.036 to 0.046),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,"False-positive alerts per 1,000",-124.7 (-132.4 to -117.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,Alerts per event captured,-0.39 (-0.43 to -0.34),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus early mean MAP,Net benefit,-0.002 (-0.005 to 0.001),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alert rate,0.239 (0.230 to 0.248),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,Sensitivity,0.155 (0.140 to 0.171),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,PPV,-0.099 (-0.108 to -0.090),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,"False-positive alerts per 1,000",198.5 (190.1 to 206.6),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alerts per event captured,0.64 (0.58 to 0.69),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.1,paired difference,Severe early burden + LM5 minus landmark MAP <65,Net benefit,0.019 (0.014 to 0.023),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,Alert rate,0.480 (0.470 to 0.491),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,Sensitivity,0.774 (0.755 to 0.791),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,PPV,0.421 (0.406 to 0.436),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,"False-positive alerts per 1,000",278.1 (268.6 to 287.0),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,Alerts per event captured,2.37 (2.29 to 2.46),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + LM5,Net benefit,0.153 (0.144 to 0.162),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,Alert rate,0.676 (0.667 to 0.686),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,Sensitivity,0.890 (0.876 to 0.903),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,PPV,0.344 (0.332 to 0.356),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,"False-positive alerts per 1,000",443.6 (433.3 to 453.8),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,Alerts per event captured,2.91 (2.81 to 3.01),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + early mean MAP,Net benefit,0.154 (0.145 to 0.164),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,Alert rate,0.429 (0.418 to 0.439),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,Sensitivity,0.732 (0.714 to 0.750),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,PPV,0.447 (0.431 to 0.463),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,"False-positive alerts per 1,000",237.3 (228.2 to 246.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,Alerts per event captured,2.24 (2.16 to 2.32),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,strategy,Severe early burden + landmark MAP <65,Net benefit,0.150 (0.141 to 0.159),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,Alert rate,-0.196 (-0.206 to -0.187),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,Sensitivity,-0.116 (-0.130 to -0.103),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,PPV,0.077 (0.070 to 0.085),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,"False-positive alerts per 1,000",-165.6 (-173.8 to -157.1),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,Alerts per event captured,-0.53 (-0.58 to -0.48),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus early mean MAP,Net benefit,-0.001 (-0.005 to 0.003),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alert rate,0.052 (0.046 to 0.057),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,Sensitivity,0.041 (0.033 to 0.051),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,PPV,-0.025 (-0.031 to -0.020),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,"False-positive alerts per 1,000",40.7 (36.3 to 45.0),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alerts per event captured,0.13 (0.11 to 0.16),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.15,paired difference,Severe early burden + LM5 minus landmark MAP <65,Net benefit,0.004 (0.001 to 0.006),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,Alert rate,0.407 (0.397 to 0.418),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,Sensitivity,0.711 (0.692 to 0.730),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,PPV,0.457 (0.441 to 0.474),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,"False-positive alerts per 1,000",221.2 (212.6 to 229.8),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,Alerts per event captured,2.19 (2.11 to 2.27),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + LM5,Net benefit,0.131 (0.122 to 0.140),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,Alert rate,0.534 (0.524 to 0.544),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,Sensitivity,0.817 (0.800 to 0.833),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,PPV,0.400 (0.387 to 0.415),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,"False-positive alerts per 1,000",320.0 (310.3 to 329.5),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,Alerts per event captured,2.50 (2.41 to 2.59),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + early mean MAP,Net benefit,0.134 (0.124 to 0.144),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,Alert rate,0.429 (0.418 to 0.439),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,Sensitivity,0.732 (0.714 to 0.750),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,PPV,0.447 (0.431 to 0.463),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,"False-positive alerts per 1,000",237.3 (228.2 to 246.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,Alerts per event captured,2.24 (2.16 to 2.32),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,strategy,Severe early burden + landmark MAP <65,Net benefit,0.132 (0.123 to 0.142),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,Alert rate,-0.126 (-0.134 to -0.119),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,Sensitivity,-0.106 (-0.119 to -0.093),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,PPV,0.056 (0.048 to 0.064),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,"False-positive alerts per 1,000",-98.8 (-105.6 to -92.0),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,Alerts per event captured,-0.31 (-0.35 to -0.26),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus early mean MAP,Net benefit,-0.003 (-0.007 to 0.001),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alert rate,-0.022 (-0.027 to -0.016),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,Sensitivity,-0.021 (-0.031 to -0.011),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,PPV,0.010 (0.004 to 0.016),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,"False-positive alerts per 1,000",-16.2 (-20.6 to -11.5),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alerts per event captured,-0.05 (-0.08 to -0.02),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.2,paired difference,Severe early burden + LM5 minus landmark MAP <65,Net benefit,-0.001 (-0.004 to 0.001),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,Alert rate,0.339 (0.329 to 0.349),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,Sensitivity,0.637 (0.617 to 0.657),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,PPV,0.492 (0.473 to 0.510),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,"False-positive alerts per 1,000",172.3 (163.8 to 180.2),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,Alerts per event captured,2.03 (1.96 to 2.11),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + LM5,Net benefit,0.109 (0.100 to 0.118),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,Alert rate,0.378 (0.367 to 0.387),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,Sensitivity,0.668 (0.647 to 0.688),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,PPV,0.463 (0.446 to 0.481),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,"False-positive alerts per 1,000",202.8 (194.4 to 211.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,Alerts per event captured,2.16 (2.08 to 2.24),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + early mean MAP,Net benefit,0.107 (0.098 to 0.117),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,Alert rate,0.429 (0.418 to 0.439),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,Sensitivity,0.732 (0.714 to 0.750),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,PPV,0.447 (0.431 to 0.463),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,"False-positive alerts per 1,000",237.3 (228.2 to 246.3),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,Alerts per event captured,2.24 (2.16 to 2.32),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,strategy,Severe early burden + landmark MAP <65,Net benefit,0.112 (0.103 to 0.122),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,Alert rate,-0.039 (-0.045 to -0.032),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,Sensitivity,-0.031 (-0.044 to -0.018),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,PPV,0.029 (0.020 to 0.038),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,"False-positive alerts per 1,000",-30.5 (-35.8 to -24.9),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,Alerts per event captured,-0.13 (-0.17 to -0.09),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus early mean MAP,Net benefit,0.002 (-0.002 to 0.006),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alert rate,-0.090 (-0.097 to -0.083),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,Sensitivity,-0.095 (-0.109 to -0.082),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,PPV,0.045 (0.036 to 0.054),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,"False-positive alerts per 1,000",-65.0 (-70.9 to -59.0),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,Alerts per event captured,-0.21 (-0.25 to -0.16),post-U0 exploratory full-workflow comparison
+Complete two-branch landmark workflow,0.25,paired difference,Severe early burden + LM5 minus landmark MAP <65,Net benefit,-0.003 (-0.008 to 0.001),post-U0 exploratory full-workflow comparison

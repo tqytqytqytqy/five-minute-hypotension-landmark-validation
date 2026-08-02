@@ -1,0 +1,23 @@
+section,database,item,n,definition
+flow,INSPIRE,Basic common operations,83939.0,locked flow
+flow,INSPIRE,Eligible t0 at >3-30 min,39186.0,locked flow
+flow,INSPIRE,Observed through t0+30,38138.0,locked flow
+flow,INSPIRE,Feature-evaluable,37733.0,locked flow
+flow,INSPIRE,Outcome-evaluable,37220.0,locked flow
+flow,INSPIRE,First evaluable operation,32803.0,locked flow
+flow,INSPIRE,Severe early-burden branch,1513.0,locked flow
+flow,INSPIRE,Screen-negative Stage 2,31290.0,locked flow
+flow,INSPIRE,Stage-2 events,6301.0,locked flow
+flow,MOVER,Basic common operations,48645.0,locked flow
+flow,MOVER,Eligible t0 at >3-30 min,11166.0,locked flow
+flow,MOVER,Observed through t0+30,11036.0,locked flow
+flow,MOVER,Feature-evaluable,10633.0,locked flow
+flow,MOVER,Outcome-evaluable,10154.0,locked flow
+flow,MOVER,First evaluable operation,8595.0,locked flow
+flow,MOVER,Severe early-burden branch,1418.0,locked flow
+flow,MOVER,Screen-negative Stage 2,7177.0,locked flow
+flow,MOVER,Stage-2 events,1398.0,locked flow
+timeline,H5,t0,,first eligible 5-min-grid MAP <65
+timeline,H5,t0+5,,prediction landmark
+timeline,H5,t0+30,,outcome horizon
+workflow,MOVER,Stage-2 LM5 / early mean / current-state comparison,7177.0,frozen probabilities

@@ -1,0 +1,129 @@
+analysis_block,threshold,row_type,strategy_or_contrast,metric,estimate_95CI,analysis_label
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,Alert rate,0.602 (0.591 to 0.614),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,Sensitivity,0.819 (0.798 to 0.840),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,PPV,0.265 (0.252 to 0.278),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,"False-positive alerts per 1,000",442.8 (431.7 to 454.4),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,Alerts per event captured,3.78 (3.60 to 3.97),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,LM5 common-18,Net benefit,0.110 (0.101 to 0.119),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,Alert rate,0.770 (0.760 to 0.780),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,Sensitivity,0.915 (0.899 to 0.930),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,PPV,0.231 (0.220 to 0.242),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,"False-positive alerts per 1,000",592.2 (581.0 to 603.0),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,Alerts per event captured,4.32 (4.13 to 4.55),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Early mean MAP model,Net benefit,0.112 (0.103 to 0.122),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,Alert rate,0.316 (0.305 to 0.327),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,Sensitivity,0.569 (0.542 to 0.595),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,PPV,0.351 (0.331 to 0.370),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,"False-positive alerts per 1,000",205.1 (196.0 to 214.6),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,Alerts per event captured,2.85 (2.70 to 3.02),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,strategy,Landmark MAP <65 rule,Net benefit,0.088 (0.081 to 0.096),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,Alert rate,-0.168 (-0.178 to -0.158),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,Sensitivity,-0.096 (-0.114 to -0.078),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,PPV,0.034 (0.028 to 0.039),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,"False-positive alerts per 1,000",-149.4 (-158.3 to -139.8),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,Alerts per event captured,-0.55 (-0.63 to -0.46),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus early mean MAP,Net benefit,-0.002 (-0.006 to 0.001),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,Alert rate,0.286 (0.276 to 0.297),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,Sensitivity,0.250 (0.226 to 0.273),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,PPV,-0.086 (-0.098 to -0.073),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,"False-positive alerts per 1,000",237.7 (228.1 to 247.3),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,Alerts per event captured,0.93 (0.81 to 1.05),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,paired difference,LM5 minus landmark MAP <65,Net benefit,0.022 (0.017 to 0.028),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.1,decision reference,Alert all,Net benefit,0.1053 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.1,decision reference,Alert none,Net benefit,0.0000 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,Alert rate,0.378 (0.366 to 0.389),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,Sensitivity,0.636 (0.610 to 0.662),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,PPV,0.328 (0.310 to 0.345),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,"False-positive alerts per 1,000",253.9 (243.7 to 264.2),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,Alerts per event captured,3.05 (2.90 to 3.22),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,LM5 common-18,Net benefit,0.079 (0.071 to 0.087),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,Alert rate,0.612 (0.601 to 0.624),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,Sensitivity,0.823 (0.801 to 0.843),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,PPV,0.262 (0.249 to 0.274),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,"False-positive alerts per 1,000",452.1 (440.3 to 463.7),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,Alerts per event captured,3.82 (3.64 to 4.02),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Early mean MAP model,Net benefit,0.080 (0.071 to 0.090),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,Alert rate,0.316 (0.305 to 0.327),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,Sensitivity,0.569 (0.542 to 0.595),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,PPV,0.351 (0.331 to 0.370),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,"False-positive alerts per 1,000",205.1 (196.0 to 214.6),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,Alerts per event captured,2.85 (2.70 to 3.02),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,strategy,Landmark MAP <65 rule,Net benefit,0.075 (0.067 to 0.082),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,Alert rate,-0.235 (-0.246 to -0.224),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,Sensitivity,-0.187 (-0.208 to -0.164),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,PPV,0.066 (0.056 to 0.077),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,"False-positive alerts per 1,000",-198.3 (-208.4 to -188.4),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,Alerts per event captured,-0.77 (-0.88 to -0.66),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus early mean MAP,Net benefit,-0.001 (-0.006 to 0.004),prespecified principal operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,Alert rate,0.062 (0.056 to 0.068),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,Sensitivity,0.067 (0.052 to 0.082),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,PPV,-0.023 (-0.031 to -0.015),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,"False-positive alerts per 1,000",48.8 (43.5 to 54.2),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,Alerts per event captured,0.20 (0.13 to 0.26),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,paired difference,LM5 minus landmark MAP <65,Net benefit,0.004 (0.001 to 0.007),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.15,decision reference,Alert all,Net benefit,0.0527 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.15,decision reference,Alert none,Net benefit,0.0000 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,Alert rate,0.290 (0.279 to 0.301),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,Sensitivity,0.536 (0.509 to 0.562),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,PPV,0.360 (0.338 to 0.380),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,"False-positive alerts per 1,000",185.7 (176.7 to 195.1),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,Alerts per event captured,2.78 (2.63 to 2.96),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,LM5 common-18,Net benefit,0.058 (0.050 to 0.066),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,Alert rate,0.442 (0.429 to 0.453),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,Sensitivity,0.706 (0.681 to 0.730),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,PPV,0.311 (0.296 to 0.327),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,"False-positive alerts per 1,000",304.0 (293.3 to 314.5),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,Alerts per event captured,3.21 (3.06 to 3.38),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Early mean MAP model,Net benefit,0.062 (0.053 to 0.070),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,Alert rate,0.316 (0.305 to 0.327),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,Sensitivity,0.569 (0.542 to 0.595),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,PPV,0.351 (0.331 to 0.370),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,"False-positive alerts per 1,000",205.1 (196.0 to 214.6),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,Alerts per event captured,2.85 (2.70 to 3.02),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,strategy,Landmark MAP <65 rule,Net benefit,0.060 (0.052 to 0.068),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,Alert rate,-0.151 (-0.160 to -0.143),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,Sensitivity,-0.170 (-0.192 to -0.148),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,PPV,0.048 (0.035 to 0.061),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,"False-positive alerts per 1,000",-118.3 (-126.1 to -110.2),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,Alerts per event captured,-0.43 (-0.53 to -0.33),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus early mean MAP,Net benefit,-0.004 (-0.009 to 0.001),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,Alert rate,-0.026 (-0.032 to -0.020),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,Sensitivity,-0.034 (-0.049 to -0.017),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,PPV,0.009 (-0.001 to 0.018),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,"False-positive alerts per 1,000",-19.4 (-24.9 to -13.9),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,Alerts per event captured,-0.07 (-0.14 to 0.00),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,paired difference,LM5 minus landmark MAP <65,Net benefit,-0.002 (-0.005 to 0.002),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.2,decision reference,Alert all,Net benefit,-0.0065 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.2,decision reference,Alert none,Net benefit,0.0000 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,Alert rate,0.208 (0.199 to 0.217),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,Sensitivity,0.416 (0.390 to 0.443),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,PPV,0.389 (0.364 to 0.414),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,"False-positive alerts per 1,000",127.2 (119.4 to 134.9),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,Alerts per event captured,2.57 (2.42 to 2.74),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,LM5 common-18,Net benefit,0.039 (0.032 to 0.046),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,Alert rate,0.255 (0.244 to 0.264),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,Sensitivity,0.466 (0.439 to 0.492),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,PPV,0.357 (0.335 to 0.378),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,"False-positive alerts per 1,000",163.7 (155.4 to 172.2),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,Alerts per event captured,2.80 (2.64 to 2.99),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Early mean MAP model,Net benefit,0.036 (0.029 to 0.044),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,Alert rate,0.316 (0.305 to 0.327),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,Sensitivity,0.569 (0.542 to 0.595),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,PPV,0.351 (0.331 to 0.370),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,"False-positive alerts per 1,000",205.1 (196.0 to 214.6),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,Alerts per event captured,2.85 (2.70 to 3.02),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,strategy,Landmark MAP <65 rule,Net benefit,0.043 (0.034 to 0.051),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,Alert rate,-0.046 (-0.053 to -0.039),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,Sensitivity,-0.050 (-0.070 to -0.030),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,PPV,0.032 (0.017 to 0.048),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,"False-positive alerts per 1,000",-36.5 (-42.9 to -30.2),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,Alerts per event captured,-0.23 (-0.34 to -0.13),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus early mean MAP,Net benefit,0.002 (-0.002 to 0.007),prespecified sensitivity operating scenario; paired patient bootstrap
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,Alert rate,-0.108 (-0.115 to -0.100),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,Sensitivity,-0.153 (-0.174 to -0.132),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,PPV,0.038 (0.023 to 0.054),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,"False-positive alerts per 1,000",-77.9 (-84.7 to -70.9),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,Alerts per event captured,-0.28 (-0.39 to -0.17),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,paired difference,LM5 minus landmark MAP <65,Net benefit,-0.004 (-0.009 to 0.001),post-U0 exploratory current-state benchmark
+Stage-2 fixed threshold,0.25,decision reference,Alert all,Net benefit,-0.0736 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval
+Stage-2 fixed threshold,0.25,decision reference,Alert none,Net benefit,0.0000 (point estimate),decision-curve reference from frozen cohort prevalence; no bootstrap interval

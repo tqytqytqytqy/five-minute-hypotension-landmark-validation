@@ -1,0 +1,30 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "model": "LM5_common18",
+  "purpose": "Fully synthetic, non-patient-derived implementation example",
+  "input_provenance": "Constructed from published aggregate frozen imputation medians; it is not a patient record",
+  "calculation": "raw-scale intercept plus the sum of raw-scale coefficient times input, followed by inverse logit",
+  "input": {
+    "age_years": 60.0,
+    "male": 0.0,
+    "bmi": 23.437499999999996,
+    "asa": 2.0,
+    "t0_map": 62.0,
+    "t0_map_squared": 3844.0,
+    "t0_arterial_source": 0.0,
+    "anesthesia_start_to_t0_min": 10.0,
+    "pre10_map_record_count": 2.0,
+    "pre10_last_measurement_gap_min": 5.0,
+    "pre10_last_map": 77.0,
+    "pre10_mean_map": 81.5,
+    "pre10_map_ols_slope_per_min": -1.6,
+    "recovered_by_5min": 1.0,
+    "early_auc65_0_5_mmhg_min": 15.0,
+    "early_min_map_0_5": 60.0,
+    "early_mean_map_0_5": 64.0,
+    "early_map_record_count_0_5": 2.0
+  },
+  "expected_linear_predictor": -1.7595048621082618,
+  "expected_probability": 0.14685236317048397,
+  "absolute_tolerance": 1e-12
+}

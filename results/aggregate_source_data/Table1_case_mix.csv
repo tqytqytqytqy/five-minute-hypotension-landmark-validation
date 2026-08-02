@@ -1,0 +1,14 @@
+domain,characteristic,summary_type,INSPIRE_stage2_n31290,MOVER_stage2_n7177,SMD_INSPIRE_vs_MOVER,missing_n_INSPIRE,missing_n_MOVER,analysis_label
+Cohort,"Participants, n",count,"31,290","7,177",,0,0,locked Stage-2 cohorts
+Outcome,"Locked composite outcome, n (%)",binary,"6,301 (20.1%)","1,398 (19.5%)",0.017,0,0,locked Stage-2 cohorts
+Demographics,"Age, years, mean (SD)",continuous,56.4 (16.1),54.3 (17.6),0.122,0,0,locked Stage-2 cohorts
+Demographics,"Male sex, n (%)",binary,"14,218 (45.4%)","3,444 (48.0%)",-0.051,0,0,locked Stage-2 cohorts
+Demographics,"BMI, kg/m2, mean (SD)",continuous,23.6 (3.8),26.8 (6.3),-0.623,565,1409,locked Stage-2 cohorts
+Clinical,"ASA physical status >=3, n (%)",binary,"2,875 (9.4%)","4,200 (58.5%)",-1.213,767,1,locked Stage-2 cohorts
+Clinical,"Emergency case, n (%)",binary,"2,929 (9.4%)",Not available (structurally unavailable),Not estimable,0,7177,MOVER structural unavailability; technical False placeholder not interpreted as observed status
+Monitoring,"Arterial MAP source at t0, n (%)",binary,"13,465 (43.0%)","1,106 (15.4%)",0.637,0,0,locked Stage-2 cohorts
+Landmark,"MAP at t0, mm Hg, mean (SD)",continuous,59.8 (3.9),60.1 (4.0),-0.094,0,0,locked Stage-2 cohorts
+Landmark,"Mean MAP from t0 to +5 min, mean (SD)",continuous,65.4 (6.4),66.5 (7.2),-0.153,0,0,locked Stage-2 cohorts
+Landmark,"MAP >=65 mm Hg at t0+5 min, n (%)",binary,"18,929 (60.5%)","4,909 (68.4%)",-0.166,0,0,locked Stage-2 cohorts
+Landmark,"AUC below MAP65, t0 to +5 min, mean (SD)",continuous,17.8 (11.8),15.9 (11.9),0.161,0,0,locked Stage-2 cohorts
+Case mix,"Anesthesia duration, min, mean (SD)",continuous,179.0 (115.4),215.1 (135.8),-0.287,0,0,locked Stage-2 cohorts

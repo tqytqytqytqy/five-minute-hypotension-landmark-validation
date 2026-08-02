@@ -1,0 +1,83 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "common_population": {
+    "minimum_age_years": 18,
+    "general_anesthesia_only": true,
+    "exclude_cardiac": true,
+    "exclude_obstetric": true,
+    "exclude_cpb_proxy": true,
+    "require_anesthesia_start_stop": true,
+    "t0_search_after_anesthesia_start_min_exclusive": 3.0,
+    "t0_search_after_anesthesia_start_min_inclusive_max": 30.0,
+    "require_anesthesia_end_after_t0_min": 30.0,
+    "primary_one_first_eligible_operation_per_patient": true
+  },
+  "h5": {
+    "name": "prespecified_5_min_harmonisation_operator_H5",
+    "mover_interval_minutes": 5,
+    "phase_minutes": 0,
+    "interval_convention": "(left,right]",
+    "timestamp_label": "right_boundary",
+    "within_source_statistic": "median",
+    "source_priority": [
+      "arterial",
+      "nibp"
+    ],
+    "direct_map_main_analysis": false,
+    "future_values_forbidden": true,
+    "interpolation_forbidden": true,
+    "locf_forbidden": true,
+    "inspire_processing": "use_published_grid_without_rebinning"
+  },
+  "r1": {
+    "name": "prespecified_1_min_reconstruction_R1",
+    "mover_interval_minutes": 1,
+    "phase_minutes": 0,
+    "interval_convention": "(left,right]",
+    "timestamp_label": "right_boundary",
+    "within_source_statistic": "median",
+    "source_priority": [
+      "arterial",
+      "nibp"
+    ],
+    "direct_map_main_analysis": false,
+    "future_values_forbidden": true,
+    "interpolation_forbidden": true,
+    "locf_forbidden": true
+  },
+  "landmark": {
+    "map_threshold_mmhg": 65.0,
+    "landmark_after_t0_min": 5.0,
+    "future_horizon_after_t0_min": 30.0,
+    "pre_t0_window_min": 10.0,
+    "stage1_early_auc65_threshold_mmhg_min": 50.0,
+    "stage1_early_recurrence": true
+  },
+  "primary_endpoint": {
+    "name": "future_persistent_or_high_burden_hypotension_5_30",
+    "window": "(t0+5,t0+30] with t0+5 as AUC anchor",
+    "persistent_component": "time_to_first_MAP_ge_65_from_landmark_gt_10_min_or_never_recovers",
+    "auc_component": "trapezoidal_AUC_below_65_from_t0_plus_5_to_t0_plus_30_ge_75_mmhg_min",
+    "h5_boundary_points_required": [
+      5,
+      30
+    ],
+    "h5_expected_grid_points_from_t0": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "h5_minimum_observed_grid_points": 5,
+    "h5_maximum_gap_min": 10,
+    "r1_boundary_points_required": [
+      5,
+      30
+    ],
+    "r1_maximum_gap_min": 5,
+    "no_endpoint_imputation": true
+  },
+  "model_risk_set": "first fully evaluable operation per patient and not stage1 direct alert"
+}

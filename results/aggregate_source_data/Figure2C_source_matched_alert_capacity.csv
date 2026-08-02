@@ -1,0 +1,7 @@
+strategy,metric,estimate,ci95_lower,ci95_upper,valid_replicates,capacity_n_original
+LM5_common18,true_positives,795.0,743.0,847.0,2000,2268
+LM5_common18,alerts_per_true_positive,2.852830188679245,2.7079202974468135,3.023401584329063,2000,2268
+simple_early_mean_map,true_positives,769.0,716.0,821.0,2000,2268
+simple_early_mean_map,alerts_per_true_positive,2.9492847854356308,2.789910226385636,3.1279343562957727,2000,2268
+current_state_landmark_MAP_lt65,true_positives,796.0,744.0,850.0,2000,2268
+current_state_landmark_MAP_lt65,alerts_per_true_positive,2.849246231155779,2.6962758548395436,3.0198184416464655,2000,2268

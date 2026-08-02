@@ -1,0 +1,21 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "freeze_version": "1.1.0",
+  "technical_freeze_finalized_at_utc": "2026-07-12T04:04:30.198832+00:00",
+  "freeze_receipt_issued_at_utc": "2026-07-12T04:04:54.012337+00:00",
+  "u0_started_at_utc": "2026-07-12T04:06:58.536924+00:00",
+  "u0_completed_at_utc": "2026-07-12T04:08:55.597383+00:00",
+  "status": "COMPLETE",
+  "attempt_number": 1,
+  "model_state": "U0_no_update",
+  "model_or_threshold_refitting_in_MOVER": false,
+  "MOVER_patient_level_predictions_seen_before_freeze": false,
+  "MOVER_performance_metrics_seen_before_freeze": false,
+  "known_prior_MOVER_proxy_event_summary": true,
+  "stage2_n": 7177,
+  "stage2_events": 1398,
+  "bootstrap_repetitions": 2000,
+  "freeze_receipt_sha256": "c812a1e7738a87e01fd4234a5a3537f316b6c4c2a2eca87e5a586b8298208264",
+  "original_u0_execution_lock_sha256": "d4cf91463876310abbfa8ed2ffced836e7c13a23d5441a21e87da844a806a936",
+  "redaction_note": "Hostname, process identifier, staging directory, local paths, patient/case hashes, and patient-level test vectors are excluded."
+}

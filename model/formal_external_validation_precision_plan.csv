@@ -1,0 +1,6 @@
+﻿precision_target,required_n,estimated_width,assumed_external_event_rate
+calibration_slope_CI_total_width_le_0.20,6001,,0.12
+O_over_E_CI_approximately_0.90_to_1.10,3525,,0.12
+AUROC_CI_total_width_le_0.05_at_AUC_0.70,4771,,0.12
+maximum_required_n,6001,,0.12
+expected_primary_threshold_net_benefit_CI_width_at_maximum_n,6001,0.013948130075644495,0.12

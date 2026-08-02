@@ -1,0 +1,9 @@
+{
+  "tolerance": 1e-12,
+  "maximum_absolute_error_by_model": {
+    "LM5_common18": 9.71445146547012e-17,
+    "simple_recovered_by_5min": 5.551115123125783e-17,
+    "simple_early_mean_map": 9.020562075079397e-17,
+    "simple_t0_map": 8.326672684688674e-17
+  }
+}

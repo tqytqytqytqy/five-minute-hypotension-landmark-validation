@@ -1,0 +1,54 @@
+{
+  "title": "Five-minute landmark model for intraoperative hypotension: reproducibility materials",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "publication_date": "2026-08-02",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "description": "Reproducibility materials for a frozen ridge-logistic five-minute landmark model developed in INSPIRE and externally evaluated without model updating in MOVER. The release contains code, model and preprocessing metadata, protocol materials, synthetic numerical verification, 19 non-patient-level aggregate source-data CSV files, and programmatically generated figures. It excludes source data and patient-level derivatives.",
+  "creators": [
+    {
+      "name": "Teng, Qingyu",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Li, Qi",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Yao, Sijia",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Chen, Xiaoxiao",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Ni, Mengya",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Zhao, Jin",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Zhao, Yingya",
+      "affiliation": "School of Public Health, Fudan University",
+      "orcid": "0009-0005-3335-8193"
+    },
+    {
+      "name": "Zhang, Hui",
+      "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine",
+      "orcid": "0009-0006-5460-3845"
+    }
+  ],
+  "keywords": [
+    "intraoperative hypotension",
+    "external validation",
+    "landmark prediction",
+    "calibration",
+    "alert burden",
+    "transportability"
+  ]
+}

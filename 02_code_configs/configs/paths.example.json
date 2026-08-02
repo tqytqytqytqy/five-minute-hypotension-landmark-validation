@@ -1,0 +1,11 @@
+{
+  "project_root": "/absolute/path/to/authorized/local/project",
+  "inspire_zip": "/absolute/path/to/authorized/INSPIRE-1.4.2.zip",
+  "mover_epic_emr": "/absolute/path/to/authorized/MOVER_EPIC_EMR.tar.gz",
+  "mover_epic_flowsheets_cleaned": "/absolute/path/to/authorized/MOVER_Epic_flowsheets_cleaned.tar.gz",
+  "mover_epic_patient_measurements_forbidden": "/do/not/use/EPIC_patient_measurements.tar.gz",
+  "mover_sis_emr_sensitivity_only": "/absolute/path/to/authorized/MOVER_SIS_EMR.tar.gz",
+  "vitaldb_raw_root": "/absolute/path/to/authorized/VitalDB/files",
+  "legacy_inspire_v3_read_only": "/optional/read-only/path/to/legacy/INSPIRE/materials",
+  "legacy_mover_map_cache_qa_only": "/optional/read-only/path/to/legacy/MOVER/QA/cache.csv.gz"
+}

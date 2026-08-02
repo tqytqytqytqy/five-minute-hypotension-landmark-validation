@@ -1,0 +1,17 @@
+section,audit_item,value,status
+frozen U0,Joined Stage-2 predictions,7177,PASS
+frozen U0,Outcome mismatches,0,PASS
+frozen U0,Probabilities regenerated,False,PASS
+endpoint definition,Original U0 events,1398,locked formal endpoint
+endpoint definition,Post-U0 landmark-consistent alternative events,1176,exploratory changed endpoint
+endpoint definition,Locked-positive to alternative-negative reclassifications,222,post-U0 exploratory
+grouped calibration-error correction,Historical recovery-status-only probability model: locked reported error,0.0999097826575863,historical
+grouped calibration-error correction,Historical recovery-status-only probability model: exact-score-group error,0.0109449058921835,prepublication correction
+Stage-1 structural audit,INSPIRE/all_classified_operations: recurrence-positive,0,PASS
+Stage-1 structural audit,INSPIRE/all_classified_operations: AUC membership mismatch,0,PASS
+Stage-1 structural audit,MOVER/all_classified_operations: recurrence-positive,0,PASS
+Stage-1 structural audit,MOVER/all_classified_operations: AUC membership mismatch,0,PASS
+Stage-1 structural audit,INSPIRE/first_fully_evaluable_operation_per_patient: recurrence-positive,0,PASS
+Stage-1 structural audit,INSPIRE/first_fully_evaluable_operation_per_patient: AUC membership mismatch,0,PASS
+Stage-1 structural audit,MOVER/first_fully_evaluable_operation_per_patient: recurrence-positive,0,PASS
+Stage-1 structural audit,MOVER/first_fully_evaluable_operation_per_patient: AUC membership mismatch,0,PASS

@@ -1,0 +1,33 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "receipt_version": "1.0",
+  "freeze_version": "1.1.0",
+  "issued_at_utc": "2026-07-12T04:04:54.012337+00:00",
+  "receipt_location": "outside writable model bundle",
+  "MOVER_patient_level_predictions_seen": false,
+  "MOVER_performance_seen": false,
+  "core_file_sha256": {
+    "model.json": "2eb42c0211a6413408b4aa9c3987e0299514d415d5bf110a9e3bb8a1663eb6ea",
+    "preprocess.json": "ce5c72c8a82740511a00fa823064889bb386640fe63a145bcb66dbaaa6ddad7a",
+    "thresholds.json": "1153a5578a9a98b59bfee43e6d40e76d3d2bb02dbaf1a79117481c00b98caccb",
+    "feature_contract.json": "7cb765a3d4259eb41d81705bf46be845c7f9d867a8a2e570986a6de1745d87fc",
+    "cohort_endpoint.json": "b09fc83d23f40c01e7258d9ba99bc8114dcc448dfe9687cbde3608dad9b965f3",
+    "test_vectors.csv": "15d00a0ef3a0076657fffa047251460500d4289fba7c54e043f8ed5e69694ec0",
+    "freeze_provenance.json": "48334b941ee87ed1f145586e39ae70e82f97c4e0085d8b5a02be6f90b260dd1a",
+    "SHA256SUMS.csv": "9b1c7309dedea5f783c0576811f655e0bfd19c9f62ffe6c0fb0d995e8a6d8e46",
+    "code_SHA256SUMS.csv": "d92b470d45843929cab117022724354d25cb7bf1887aa2f5d59202dbce296870"
+  },
+  "secondary_analysis_file_sha256": {
+    "00_protocol_SAP/secondary_analysis_prespec.json": "a8009f08bd44dcea7a7ed7e0068d652afc111a4886a95dff8deebb5f88e39e7c",
+    "02_code_configs/scripts/07_secondary_analyses.py": "8b520418a458f0039125fe069e53568548e88a3a21954bdc320931ac3d5f4078"
+  },
+  "test_vector_verification": {
+    "tolerance": 1e-12,
+    "maximum_absolute_error_by_model": {
+      "LM5_common18": 9.71445146547012e-17,
+      "simple_recovered_by_5min": 5.551115123125783e-17,
+      "simple_early_mean_map": 9.020562075079397e-17,
+      "simple_t0_map": 8.326672684688674e-17
+    }
+  }
+}

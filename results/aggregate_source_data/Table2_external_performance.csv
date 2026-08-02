@@ -1,0 +1,18 @@
+row_type,strategy_or_contrast,metric,estimate_95CI,interpretation_direction,analysis_label,n,events
+strategy,LM5 common-18,AUROC,0.714 (0.698 to 0.729),higher is better,locked U0 secondary evaluation,7177,1398
+strategy,LM5 common-18,AUPRC,0.391 (0.365 to 0.418),higher is better,locked U0 secondary evaluation,7177,1398
+strategy,LM5 common-18,Brier score,0.142 (0.136 to 0.148),lower is better,locked U0 secondary evaluation,7177,1398
+strategy,LM5 common-18,Calibration slope,0.895 (0.824 to 0.970),ideal 1.0,prespecified primary LM5 calibration slope,7177,1398
+strategy,LM5 common-18,Calibration-in-the-large,0.221 (0.157 to 0.283),ideal 0.0; positive indicates underprediction,locked U0 secondary evaluation,7177,1398
+strategy,LM5 common-18,Observed/expected ratio,1.173 (1.120 to 1.225),ideal 1.0,locked U0 secondary evaluation,7177,1398
+strategy,LM5 common-18,10-bin patient-level absolute calibration deviation,0.037 (0.031 to 0.046),lower is better,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,AUROC,0.705 (0.689 to 0.720),higher is better,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,AUPRC,0.352 (0.330 to 0.377),higher is better,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,Brier score,0.144 (0.139 to 0.149),lower is better,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,Calibration slope,0.929 (0.811 to 1.051),ideal 1.0,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,Calibration-in-the-large,0.064 (-0.000 to 0.123),ideal 0.0; positive indicates underprediction,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,Observed/expected ratio,1.049 (1.000 to 1.096),ideal 1.0,locked U0 secondary evaluation,7177,1398
+strategy,Early mean MAP model,10-bin patient-level absolute calibration deviation,0.028 (0.022 to 0.037),lower is better,locked U0 secondary evaluation,7177,1398
+paired difference,LM5 minus early mean MAP,AUROC,0.009 (0.001 to 0.017),higher is better,locked U0 paired patient bootstrap,7177,1398
+paired difference,LM5 minus early mean MAP,AUPRC,0.038 (0.022 to 0.055),higher is better,locked U0 paired patient bootstrap,7177,1398
+paired difference,LM5 minus early mean MAP,Brier score,-0.002 (-0.004 to -0.001),lower is better,locked U0 paired patient bootstrap,7177,1398

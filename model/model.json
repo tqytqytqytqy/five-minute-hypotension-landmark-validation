@@ -1,0 +1,215 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "bundle_version": "1.1.0",
+  "development_database": "INSPIRE_1.4.2",
+  "external_validation_database": "MOVER_EPIC",
+  "primary_model": "LM5_common18",
+  "selected_ridge_lambda_from_development_CV": 1e-05,
+  "models": {
+    "LM5_common18": {
+      "family": "binomial",
+      "link": "logit",
+      "penalty": "ridge",
+      "penalize_intercept": false,
+      "l2": 1e-05,
+      "intercept_raw_scale": -20.759969012587476,
+      "coefficients_raw_scale": {
+        "age_years": -0.004412889319427417,
+        "male": 0.09706734394275121,
+        "bmi": -0.005088694069944814,
+        "asa": 0.1375030632594083,
+        "t0_map": 0.629576516838327,
+        "t0_map_squared": -0.004845294345153534,
+        "t0_arterial_source": 0.4987603593786726,
+        "anesthesia_start_to_t0_min": -0.013873345440989672,
+        "pre10_map_record_count": -0.1562701856133274,
+        "pre10_last_measurement_gap_min": 0.05286543549587977,
+        "pre10_last_map": -0.032917424796947294,
+        "pre10_mean_map": 0.027298224006694523,
+        "pre10_map_ols_slope_per_min": 0.10288632576995345,
+        "recovered_by_5min": -0.4489066191515083,
+        "early_auc65_0_5_mmhg_min": 0.04479466547873413,
+        "early_min_map_0_5": 0.05144664737905256,
+        "early_mean_map_0_5": -0.06167727991218687,
+        "early_map_record_count_0_5": 0.0
+      },
+      "standardized_intercept": -1.5729658536863846,
+      "standardized_coefficients": {
+        "age_years": -0.0708784907123182,
+        "male": 0.04833136256552515,
+        "bmi": -0.01914653430851266,
+        "asa": 0.08602263210342176,
+        "t0_map": 2.470146547592095,
+        "t0_map_squared": -2.1952496397625976,
+        "t0_arterial_source": 0.24694731820842955,
+        "anesthesia_start_to_t0_min": -0.10715067393833759,
+        "pre10_map_record_count": -0.07641362851880842,
+        "pre10_last_measurement_gap_min": 0.03498233280311496,
+        "pre10_last_map": -0.485450782463907,
+        "pre10_mean_map": 0.3800880656204257,
+        "pre10_map_ols_slope_per_min": 0.275463142350839,
+        "recovered_by_5min": -0.2194527790004018,
+        "early_auc65_0_5_mmhg_min": 0.5299998309291335,
+        "early_min_map_0_5": 0.2094781062890478,
+        "early_mean_map_0_5": -0.39682734895039745,
+        "early_map_record_count_0_5": 0.0
+      },
+      "feature_mean": {
+        "age_years": 56.381751358261425,
+        "male": 0.45439437519974435,
+        "bmi": 23.58537124417196,
+        "asa": 1.7792585490572068,
+        "t0_map": 59.75830936401406,
+        "t0_map_squared": 3586.449428731224,
+        "t0_arterial_source": 0.4303291786513263,
+        "anesthesia_start_to_t0_min": 13.582134867369767,
+        "pre10_map_record_count": 1.67248322147651,
+        "pre10_last_measurement_gap_min": 5.089165867689357,
+        "pre10_last_map": 80.22091722595079,
+        "pre10_mean_map": 83.30594838606584,
+        "pre10_map_ols_slope_per_min": -1.7259843400444215,
+        "recovered_by_5min": 0.6049536593160755,
+        "early_auc65_0_5_mmhg_min": 17.802712527964207,
+        "early_min_map_0_5": 59.12411313518696,
+        "early_mean_map_0_5": 65.42660194950463,
+        "early_map_record_count_0_5": 2.0
+      },
+      "feature_scale": {
+        "age_years": 16.06169690236302,
+        "male": 0.49791578302616607,
+        "bmi": 3.7625634485667363,
+        "asa": 0.6256052051810262,
+        "t0_map": 3.9235048981765304,
+        "t0_map_squared": 453.06837590958287,
+        "t0_arterial_source": 0.4951221835593802,
+        "anesthesia_start_to_t0_min": 7.723492101750323,
+        "pre10_map_record_count": 0.4889840516852342,
+        "pre10_last_measurement_gap_min": 0.661724101484824,
+        "pre10_last_map": 14.747532210020477,
+        "pre10_mean_map": 13.92354555839289,
+        "pre10_map_ols_slope_per_min": 2.677354257617821,
+        "recovered_by_5min": 0.48886064414731956,
+        "early_auc65_0_5_mmhg_min": 11.831762225811156,
+        "early_min_map_0_5": 4.0717542728419005,
+        "early_mean_map_0_5": 6.433930768597141,
+        "early_map_record_count_0_5": 1.0
+      },
+      "converged": true,
+      "iterations": 6,
+      "objective": 0.4502945346680182,
+      "gradient_norm": 4.395278781367919e-14,
+      "solver": "newton_irls_solve",
+      "message": "gradient tolerance reached",
+      "feature_order": [
+        "age_years",
+        "male",
+        "bmi",
+        "asa",
+        "t0_map",
+        "t0_map_squared",
+        "t0_arterial_source",
+        "anesthesia_start_to_t0_min",
+        "pre10_map_record_count",
+        "pre10_last_measurement_gap_min",
+        "pre10_last_map",
+        "pre10_mean_map",
+        "pre10_map_ols_slope_per_min",
+        "recovered_by_5min",
+        "early_auc65_0_5_mmhg_min",
+        "early_min_map_0_5",
+        "early_mean_map_0_5",
+        "early_map_record_count_0_5"
+      ]
+    },
+    "simple_recovered_by_5min": {
+      "family": "binomial",
+      "link": "logit",
+      "penalty": "ridge",
+      "penalize_intercept": false,
+      "l2": 0.001,
+      "intercept_raw_scale": -0.6831801388214819,
+      "coefficients_raw_scale": {
+        "recovered_by_5min": -1.3697796012686165
+      },
+      "standardized_intercept": -1.5118333210654462,
+      "standardized_coefficients": {
+        "recovered_by_5min": -0.6696313382160806
+      },
+      "feature_mean": {
+        "recovered_by_5min": 0.6049536593160755
+      },
+      "feature_scale": {
+        "recovered_by_5min": 0.48886064414735325
+      },
+      "converged": true,
+      "iterations": 5,
+      "objective": 0.46616176512075386,
+      "gradient_norm": 5.1448480892224424e-12,
+      "solver": "newton_irls_solve",
+      "message": "gradient tolerance reached",
+      "feature_order": [
+        "recovered_by_5min"
+      ]
+    },
+    "simple_early_mean_map": {
+      "family": "binomial",
+      "link": "logit",
+      "penalty": "ridge",
+      "penalize_intercept": false,
+      "l2": 0.001,
+      "intercept_raw_scale": 7.460668540870777,
+      "coefficients_raw_scale": {
+        "early_mean_map_0_5": -0.13818258642947592
+      },
+      "standardized_intercept": -1.5801485378035658,
+      "standardized_coefficients": {
+        "early_mean_map_0_5": -0.8890571945129288
+      },
+      "feature_mean": {
+        "early_mean_map_0_5": 65.42660194950463
+      },
+      "feature_scale": {
+        "early_mean_map_0_5": 6.433930768597068
+      },
+      "converged": true,
+      "iterations": 6,
+      "objective": 0.46398178035440124,
+      "gradient_norm": 5.73380318918959e-14,
+      "solver": "newton_irls_solve",
+      "message": "gradient tolerance reached",
+      "feature_order": [
+        "early_mean_map_0_5"
+      ]
+    },
+    "simple_t0_map": {
+      "family": "binomial",
+      "link": "logit",
+      "penalty": "ridge",
+      "penalize_intercept": false,
+      "l2": 0.001,
+      "intercept_raw_scale": -0.9862779732352228,
+      "coefficients_raw_scale": {
+        "t0_map": -0.00655384911698674
+      },
+      "standardized_intercept": -1.3779249162931868,
+      "standardized_coefficients": {
+        "t0_map": -0.0257140591124058
+      },
+      "feature_mean": {
+        "t0_map": 59.75830936401406
+      },
+      "feature_scale": {
+        "t0_map": 3.9235048981762857
+      },
+      "converged": true,
+      "iterations": 4,
+      "objective": 0.5022475756637033,
+      "gradient_norm": 8.226282339780094e-16,
+      "solver": "newton_irls_solve",
+      "message": "gradient tolerance reached",
+      "feature_order": [
+        "t0_map"
+      ]
+    }
+  }
+}

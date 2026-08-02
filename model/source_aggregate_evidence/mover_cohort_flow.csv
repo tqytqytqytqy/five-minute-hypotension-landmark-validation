@@ -1,0 +1,11 @@
+﻿dataset,step,n
+MOVER,basic_common_operations,48645
+MOVER,H5_has_t0_after_3_to_30_min,11166
+MOVER,anesthesia_end_at_or_after_t0_plus_30,11036
+MOVER,H5_feature_evaluable,10633
+MOVER,H5_outcome_evaluable,10154
+MOVER,fully_evaluable_t0_operations,10154
+MOVER,first_fully_evaluable_operation_per_patient,8595
+MOVER,stage1_direct_alert_first_operations,1418
+MOVER,main_stage2_model_cohort,7177
+MOVER,main_stage2_events,1398

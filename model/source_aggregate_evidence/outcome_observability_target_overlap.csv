@@ -1,0 +1,2 @@
+﻿IPW_target_definition,U0_target_definition,IPW_target_patients,IPW_target_outcome_observed_patients,U0_patients,IPW_target_and_U0_shared_patients,shared_patients_same_case,shared_patients_different_case,unobserved_target_first_case_replaced_by_later_U0_case_patients,interpretation
+first pre-outcome-eligible stage2 operation per patient,"first fully evaluable operation per patient, then stage2",7682,7319,7177,7177,7143,34,34,IPW is a sensitivity estimand and never replaces U0

@@ -1,0 +1,33 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "capacity_thresholds": {
+    "capacity_top_10_percent": {
+      "risk_threshold": 0.39022485751038916,
+      "source": "INSPIRE_patient_level_holdout_LM5_common18_prediction_distribution",
+      "clinical_action_threshold": false
+    },
+    "capacity_top_20_percent": {
+      "risk_threshold": 0.3033134554600324,
+      "source": "INSPIRE_patient_level_holdout_LM5_common18_prediction_distribution",
+      "clinical_action_threshold": false
+    },
+    "capacity_top_30_percent": {
+      "risk_threshold": 0.25561590104176246,
+      "source": "INSPIRE_patient_level_holdout_LM5_common18_prediction_distribution",
+      "clinical_action_threshold": false
+    }
+  },
+  "clinical_action_primary": 0.15,
+  "clinical_action_sensitivity": [
+    0.1,
+    0.2,
+    0.25
+  ],
+  "clinical_action": "structured_hemodynamic_reassessment_and_rescue_preparation_not_automatic_drug_delivery",
+  "legacy_30_feature_thresholds_forbidden": [
+    0.3553,
+    0.427,
+    0.5094
+  ],
+  "mover_threshold_optimization_forbidden": true
+}

@@ -1,0 +1,45 @@
+section,item,estimate,ci95_lower,ci95_upper,threshold,status
+cohort,full_H5_stage2,7177.0,,,,supplementary selected-subset diagnostic
+cohort,four_cell_intersection_raw,1488.0,,,,supplementary selected-subset diagnostic
+cohort,four_cell_intersection_stabilized_IPW,1488.0,,,,supplementary selected-subset diagnostic
+selection diagnostic,intersection_fraction,0.2073289675351818,,,,supplementary selected-subset diagnostic
+selection diagnostic,selection_model_apparent_AUROC,0.8561193597529282,,,,supplementary selected-subset diagnostic
+selection diagnostic,effective_sample_size,609.3557023355787,,,,supplementary selected-subset diagnostic
+selection diagnostic,maximum_key_abs_SMD_after_weighting,0.1219593291784658,,,,supplementary selected-subset diagnostic
+IPW stop rule,ESS_below_50_percent_of_intersection,609.3557023355787,,,744.0,TRIGGERED
+IPW stop rule,key_post_weight_absolute_SMD_above_0.10,0.1219593291784658,,,0.1,TRIGGERED
+IPW stop rule,practical_positivity_failure,0.0002786679671171,,,0.01,pass
+IPW stop rule,more_than_5_percent_propensities_clipped,0.0006720430107526,,,0.05,pass
+key covariate balance,age_years,0.0181759928339941,,,0.1,post-weight absolute SMD
+key covariate balance,male,0.0220145484887766,,,0.1,post-weight absolute SMD
+key covariate balance,bmi,0.0099386249174844,,,0.1,post-weight absolute SMD
+key covariate balance,bmi__missing,0.0118739340823901,,,0.1,post-weight absolute SMD
+key covariate balance,asa,0.0522114642239257,,,0.1,post-weight absolute SMD
+key covariate balance,asa__missing,0.0005033709868396,,,0.1,post-weight absolute SMD
+key covariate balance,t0_map,0.0280360870095023,,,0.1,post-weight absolute SMD
+key covariate balance,t0_arterial_source,0.0011462268227713,,,0.1,post-weight absolute SMD
+key covariate balance,anesthesia_start_to_t0_min,0.0953384295245948,,,0.1,post-weight absolute SMD
+key covariate balance,pre10_map_record_count,0.1219593291784658,,,0.1,post-weight absolute SMD
+key covariate balance,recovered_by_5min,0.0048360588185554,,,0.1,post-weight absolute SMD
+key covariate balance,early_auc65_0_5_mmhg_min,0.0301197790762284,,,0.1,post-weight absolute SMD
+key covariate balance,early_mean_map_0_5,0.0224072438606597,,,0.1,post-weight absolute SMD
+R1 four_cell_intersection_raw,LM5_common18: auroc,0.7401468852656188,0.7094540751369872,0.7712816381792397,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,LM5_common18: auprc,0.4913881805481077,0.4377625542090541,0.5490838762170476,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,LM5_common18: brier,0.1536593507203995,0.1428527394528069,0.1645692646051174,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,LM5_common18: calibration_slope,0.9570797981484775,0.8151278747790615,1.10652255171005,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,simple_early_mean_map: auroc,0.73667270545019,0.7055567419201249,0.7656746563448588,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,simple_early_mean_map: auprc,0.446378907639568,0.396263142624383,0.5002702702342764,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,simple_early_mean_map: brier,0.1604951868739304,0.1486679609270224,0.1716551591909788,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,simple_early_mean_map: calibration_slope,1.0378640047802337,0.8117758178904426,1.32219156438705,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,LM5_common18: auroc,0.7318907061855625,0.6852919440660172,0.7798561920268444,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,LM5_common18: auprc,0.4159683300432259,0.36339927278142,0.4774410510438637,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,LM5_common18: brier,0.1467094517606901,0.127870557684249,0.1659776907076192,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,LM5_common18: calibration_slope,0.9469093658344512,0.7309124941764062,1.18928541490814,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,simple_early_mean_map: auroc,0.7423503107426193,0.694832521902716,0.7872120992802436,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,simple_early_mean_map: auprc,0.3961581536975812,0.3350877349073419,0.4712975316572418,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,simple_early_mean_map: brier,0.1464026195217074,0.1296794526715605,0.1635764798014221,,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,simple_early_mean_map: calibration_slope,1.1059265682329975,0.7114129879225372,1.5958978346372374,,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,LM5_common18: net benefit at 0.15,0.1231419987349778,0.1014922017414494,0.1464876867505,0.15,exploratory; IPW gate failed
+R1 four_cell_intersection_raw,simple_early_mean_map: net benefit at 0.15,0.1252371916508539,0.1025636313515208,0.1484612598998222,0.15,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,LM5_common18: net benefit at 0.15,0.0964066769745162,0.0702595597152927,0.1227902953832167,0.15,exploratory; IPW gate failed
+R1 four_cell_intersection_stabilized_IPW,simple_early_mean_map: net benefit at 0.15,0.1020158826263507,0.0697516217636741,0.1331290839799093,0.15,exploratory; IPW gate failed

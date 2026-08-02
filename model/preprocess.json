@@ -1,0 +1,139 @@
+{
+  "study_id": "LM5_COMMON18_INSPIRE_MOVER_20260712",
+  "models": {
+    "LM5_common18": {
+      "feature_order": [
+        "age_years",
+        "male",
+        "bmi",
+        "asa",
+        "t0_map",
+        "t0_map_squared",
+        "t0_arterial_source",
+        "anesthesia_start_to_t0_min",
+        "pre10_map_record_count",
+        "pre10_last_measurement_gap_min",
+        "pre10_last_map",
+        "pre10_mean_map",
+        "pre10_map_ols_slope_per_min",
+        "recovered_by_5min",
+        "early_auc65_0_5_mmhg_min",
+        "early_min_map_0_5",
+        "early_mean_map_0_5",
+        "early_map_record_count_0_5"
+      ],
+      "imputation_medians": {
+        "age_years": 60.0,
+        "male": 0.0,
+        "bmi": 23.437499999999996,
+        "asa": 2.0,
+        "t0_map": 62.0,
+        "t0_map_squared": 3844.0,
+        "t0_arterial_source": 0.0,
+        "anesthesia_start_to_t0_min": 10.0,
+        "pre10_map_record_count": 2.0,
+        "pre10_last_measurement_gap_min": 5.0,
+        "pre10_last_map": 77.0,
+        "pre10_mean_map": 81.5,
+        "pre10_map_ols_slope_per_min": -1.6,
+        "recovered_by_5min": 1.0,
+        "early_auc65_0_5_mmhg_min": 15.0,
+        "early_min_map_0_5": 60.0,
+        "early_mean_map_0_5": 64.0,
+        "early_map_record_count_0_5": 2.0
+      },
+      "standardization_means": {
+        "age_years": 56.381751358261425,
+        "male": 0.45439437519974435,
+        "bmi": 23.58537124417196,
+        "asa": 1.7792585490572068,
+        "t0_map": 59.75830936401406,
+        "t0_map_squared": 3586.449428731224,
+        "t0_arterial_source": 0.4303291786513263,
+        "anesthesia_start_to_t0_min": 13.582134867369767,
+        "pre10_map_record_count": 1.67248322147651,
+        "pre10_last_measurement_gap_min": 5.089165867689357,
+        "pre10_last_map": 80.22091722595079,
+        "pre10_mean_map": 83.30594838606584,
+        "pre10_map_ols_slope_per_min": -1.7259843400444215,
+        "recovered_by_5min": 0.6049536593160755,
+        "early_auc65_0_5_mmhg_min": 17.802712527964207,
+        "early_min_map_0_5": 59.12411313518696,
+        "early_mean_map_0_5": 65.42660194950463,
+        "early_map_record_count_0_5": 2.0
+      },
+      "standardization_sds": {
+        "age_years": 16.06169690236302,
+        "male": 0.49791578302616607,
+        "bmi": 3.7625634485667363,
+        "asa": 0.6256052051810262,
+        "t0_map": 3.9235048981765304,
+        "t0_map_squared": 453.06837590958287,
+        "t0_arterial_source": 0.4951221835593802,
+        "anesthesia_start_to_t0_min": 7.723492101750323,
+        "pre10_map_record_count": 0.4889840516852342,
+        "pre10_last_measurement_gap_min": 0.661724101484824,
+        "pre10_last_map": 14.747532210020477,
+        "pre10_mean_map": 13.92354555839289,
+        "pre10_map_ols_slope_per_min": 2.677354257617821,
+        "recovered_by_5min": 0.48886064414731956,
+        "early_auc65_0_5_mmhg_min": 11.831762225811156,
+        "early_min_map_0_5": 4.0717542728419005,
+        "early_mean_map_0_5": 6.433930768597141,
+        "early_map_record_count_0_5": 1.0
+      },
+      "parameters_estimated_from": "all_INSPIRE_final_stage2_refit",
+      "target_database_reestimation_forbidden": true
+    },
+    "simple_recovered_by_5min": {
+      "feature_order": [
+        "recovered_by_5min"
+      ],
+      "imputation_medians": {
+        "recovered_by_5min": 1.0
+      },
+      "standardization_means": {
+        "recovered_by_5min": 0.6049536593160755
+      },
+      "standardization_sds": {
+        "recovered_by_5min": 0.48886064414735325
+      },
+      "parameters_estimated_from": "all_INSPIRE_final_stage2_refit",
+      "target_database_reestimation_forbidden": true
+    },
+    "simple_early_mean_map": {
+      "feature_order": [
+        "early_mean_map_0_5"
+      ],
+      "imputation_medians": {
+        "early_mean_map_0_5": 64.0
+      },
+      "standardization_means": {
+        "early_mean_map_0_5": 65.42660194950463
+      },
+      "standardization_sds": {
+        "early_mean_map_0_5": 6.433930768597068
+      },
+      "parameters_estimated_from": "all_INSPIRE_final_stage2_refit",
+      "target_database_reestimation_forbidden": true
+    },
+    "simple_t0_map": {
+      "feature_order": [
+        "t0_map"
+      ],
+      "imputation_medians": {
+        "t0_map": 62.0
+      },
+      "standardization_means": {
+        "t0_map": 59.75830936401406
+      },
+      "standardization_sds": {
+        "t0_map": 3.9235048981762857
+      },
+      "parameters_estimated_from": "all_INSPIRE_final_stage2_refit",
+      "target_database_reestimation_forbidden": true
+    }
+  },
+  "individual_missingness": "frozen_INSPIRE_median_imputation",
+  "structural_missingness": "No-Go; whole columns may not be imputed"
+}

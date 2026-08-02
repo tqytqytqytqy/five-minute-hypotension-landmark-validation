@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use these materials, cite version 1.0.1 and DOI 10.5281/zenodo.21753664."
+title: "Five-minute landmark model for intraoperative hypotension: reproducibility materials"
+type: software
+version: 1.0.1
+date-released: 2026-08-02
+doi: "10.5281/zenodo.21753664"
+authors:
+  - family-names: Teng
+    given-names: Qingyu
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Li
+    given-names: Qi
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Yao
+    given-names: Sijia
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Chen
+    given-names: Xiaoxiao
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Ni
+    given-names: Mengya
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Zhao
+    given-names: Jin
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+  - family-names: Zhao
+    given-names: Yingya
+    affiliation: "School of Public Health, Fudan University"
+    orcid: "https://orcid.org/0009-0005-3335-8193"
+  - family-names: Zhang
+    given-names: Hui
+    affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
+    orcid: "https://orcid.org/0009-0006-5460-3845"
+keywords:
+  - intraoperative hypotension
+  - external validation
+  - landmark prediction
+  - calibration
+  - alert burden
+  - transportability
+license: MIT
+repository-code: "https://github.com/tqytqytqytqy/five-minute-hypotension-landmark-validation"
+abstract: >-
+  Reproducibility materials for a frozen ridge-logistic five-minute landmark
+  model developed in INSPIRE and externally evaluated without updating in
+  MOVER. The release contains code, model and preprocessing metadata,
+  protocol materials, synthetic numerical verification, and non-patient-level
+  aggregate source-data CSV files, and programmatically generated figures. It
+  excludes source data and patient-level derivatives.
