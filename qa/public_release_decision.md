@@ -4,7 +4,7 @@
 
 **Prepared:** 2026-08-02
 
-**Status:** DOI-reserved release candidate; publication pending
+**Status:** authorized DOI-reserved candidate; not yet published
 
 ## Intended public object
 
@@ -44,18 +44,19 @@ Excluded from public release:
 - [x] Creator order and spelling match the locked submission metadata.
 - [x] Public project and file names do not contain a journal name.
 - [x] Public source-data redistribution is prohibited and documented.
-- [x] Candidate automated tests passed in a compatible environment (65 tests; 2026-07-20); v1.0.1 verification is recorded in the release-task report.
+- [x] Automated tests passed on 2026-08-02 (65/65) using Python 3.12.13 and the locked dependency set.
 - [x] Machine-readable JSON, TOML, and CFF/YAML metadata validate syntactically.
 - [x] Final privacy, secret, path, and filename audit passes.
 - [x] All release files have a recorded SHA-256 checksum in `qa/SHA256SUMS.txt`.
-- [ ] All authors have confirmed public-release approval and the proposed MIT plus CC BY 4.0 licensing for v1.0.1.
-- [ ] An authorized account owner has approved GitHub publication and Zenodo DOI registration for v1.0.1.
+- [x] The user explicitly confirmed all-author consent for public release and the MIT (code) plus CC BY 4.0 (documentation and aggregate materials) licensing for v1.0.1 on 2026-08-02.
+- [x] The user explicitly authorized publication through `tqytqytqytqy` GitHub and Zenodo v1.0.1 on 2026-08-02.
 
-This record does not authorize external publication. Version DOI `10.5281/zenodo.21753664` is reserved; publication remains pending until the required approvals and the GitHub and Zenodo records have been verified.
+Version DOI `10.5281/zenodo.21753664` is reserved. Publication is authorized but remains pending until the GitHub and Zenodo records have been created and verified.
 
 ## Verification evidence
 
-- Automated tests: `Ran 65 tests ... OK`.
+- Automated tests: `.venv/bin/python -m unittest discover -s 09_QA_reproducibility/tests -p 'test_*.py' -v` on 2026-08-02 under Python 3.12.13: `Ran 65 tests in 0.386s`, `OK`.
 - Frozen-code manifest: 18 included frozen files matched their recorded SHA-256 values; the sole unavailable manifest entry was the deliberately excluded private `02_code_configs/configs/paths.json`, which is replaced by `paths.example.json`.
-- Metadata: the candidate's JSON, TOML, and CFF/YAML metadata parsed successfully; v1.0.1 metadata verification is recorded in the release-task report.
-- Naming/privacy scan: no public filename or content contains a journal name, local user/volume path, author email address, private-key marker, API-key marker, or access-token marker.
+- Metadata: the 13 tracked JSON files, `pyproject.toml` (TOML), and `CITATION.cff` (CFF/YAML) parsed successfully on 2026-08-02 under Python 3.12.13.
+- Checksum manifest: regenerated deterministically from `git ls-files`, sorted as `./path`, excluding only `qa/SHA256SUMS.txt`; independent path-set and SHA-256 verification found no missing, extra, or mismatched entries.
+- Naming/privacy scan: an auditable 2026-08-02 scan of every tracked filename and text file found zero banned raw/patient-level file extensions, local user/volume paths, email addresses, common credential/token/private-key signatures, or journal-brand terms. Binary PDFs and PNGs were included in the filename scan and in the checksum manifest.
