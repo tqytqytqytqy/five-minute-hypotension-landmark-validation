@@ -1,8 +1,8 @@
 {
   "title": "Five-minute landmark model for intraoperative hypotension: reproducibility materials",
   "upload_type": "software",
-  "version": "1.0.1",
-  "publication_date": "2026-08-02",
+  "version": "1.0.2",
+  "publication_date": "2026-08-11",
   "language": "eng",
   "access_right": "open",
   "license": "mit",
@@ -29,7 +29,7 @@
       "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
     },
     {
-      "name": "Zhao, Jin",
+      "name": "Zhao, Jing",
       "affiliation": "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
     },
     {

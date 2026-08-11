@@ -1,6 +1,6 @@
 # Five-minute hypotension landmark validation
 
-Version 1.0.1 reproducibility materials for the development and independent external validation of a frozen five-minute landmark model for persistent or high-burden intraoperative hypotension after an initial observed mean arterial pressure (MAP) below 65 mmHg.
+Version 1.0.2 reproducibility materials for the development and independent external validation of a frozen five-minute landmark model for persistent or high-burden intraoperative hypotension after an initial observed mean arterial pressure (MAP) below 65 mmHg.
 
 The model was developed using INSPIRE and evaluated without model updating in MOVER. The repository is intentionally journal-neutral and contains no patient-level data.
 
@@ -44,7 +44,7 @@ INSPIRE version 1.4.2 is available through PhysioNet subject to its access requi
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. Cite version 1.0.1 as https://doi.org/10.5281/zenodo.21753664.
+Citation metadata are provided in `CITATION.cff`. Cite version 1.0.2 using the version-specific DOI displayed on its Zenodo record. The release-series concept DOI is https://doi.org/10.5281/zenodo.21454384.
 
 ## Licensing
 

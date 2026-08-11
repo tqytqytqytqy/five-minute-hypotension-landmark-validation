@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use these materials, cite version 1.0.1 and DOI 10.5281/zenodo.21753664."
+message: "If you use these materials, cite version 1.0.2 and its version-specific Zenodo DOI; the release-series concept DOI is 10.5281/zenodo.21454384."
 title: "Five-minute landmark model for intraoperative hypotension: reproducibility materials"
 type: software
-version: 1.0.1
-date-released: 2026-08-02
-doi: "10.5281/zenodo.21753664"
+version: 1.0.2
+date-released: 2026-08-11
+doi: "10.5281/zenodo.21454384"
 authors:
   - family-names: Teng
     given-names: Qingyu
@@ -22,7 +22,7 @@ authors:
     given-names: Mengya
     affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
   - family-names: Zhao
-    given-names: Jin
+    given-names: Jing
     affiliation: "Shanghai Sixth People's Hospital, Shanghai Jiao Tong University School of Medicine"
   - family-names: Zhao
     given-names: Yingya

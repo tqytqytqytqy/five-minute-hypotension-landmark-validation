@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "status": "READY_FOR_GITHUB_RELEASE",
+  "verified_at_utc": "2026-08-11T03:03:03Z",
+  "release": {
+    "version": "1.0.2",
+    "date": "2026-08-11",
+    "tag": "v1.0.2",
+    "repository": "tqytqytqytqy/five-minute-hypotension-landmark-validation",
+    "url": "https://github.com/tqytqytqytqy/five-minute-hypotension-landmark-validation/releases/tag/v1.0.2"
+  },
+  "base": {
+    "tag": "v1.0.1",
+    "commit": "598017eb45487b7de3407b0da97c20f35123d76a"
+  },
+  "authorization": {
+    "date": "2026-08-11",
+    "scope": "author metadata, version, DOI, and release receipt synchronization only",
+    "forbidden_changes": [
+      "model artifacts",
+      "scientific results",
+      "license selection or scope",
+      "patient-level data"
+    ]
+  },
+  "creators_in_order": [
+    "Teng, Qingyu",
+    "Li, Qi",
+    "Yao, Sijia",
+    "Chen, Xiaoxiao",
+    "Ni, Mengya",
+    "Zhao, Jing",
+    "Zhao, Yingya",
+    "Zhang, Hui"
+  ],
+  "licenses": {
+    "code": "MIT",
+    "documentation_and_non_patient_level_aggregate_materials": "CC BY 4.0",
+    "changed_from_v1.0.1": false
+  },
+  "verification": {
+    "github_account": "tqytqytqytqy",
+    "baseline_existing_tests": {
+      "count": 65,
+      "result": "PASS",
+      "python": "3.12.13"
+    },
+    "v1.0.2_tests": {
+      "expected_count": 66,
+      "result": "PASS",
+      "python": "3.12.13"
+    },
+    "scientific_artifacts_byte_identical_to_v1.0.1": true,
+    "checksum_manifest": "qa/checksums_v1.0.2.sha256"
+  },
+  "zenodo": {
+    "concept_record_id": "21454384",
+    "concept_doi": "10.5281/zenodo.21454384",
+    "previous_version_record_id": "21753664",
+    "previous_version_doi": "10.5281/zenodo.21753664",
+    "v1.0.2_record_id": null,
+    "v1.0.2_version_doi": null,
+    "status": "PENDING_GITHUB_RELEASE"
+  }
+}

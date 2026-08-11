@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lm5-hypotension-validation"
-version = "1.0.0"
+version = "1.0.2"
 description = "Reproducibility code for a five-minute intraoperative hypotension landmark model validation"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
@@ -15,7 +15,7 @@ authors = [
   {name = "Sijia Yao"},
   {name = "Xiaoxiao Chen"},
   {name = "Mengya Ni"},
-  {name = "Jin Zhao"},
+  {name = "Jing Zhao"},
   {name = "Yingya Zhao"},
   {name = "Hui Zhang"}
 ]
